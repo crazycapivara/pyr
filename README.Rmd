@@ -18,4 +18,10 @@ devtools::load_all()
 library(pyr)
 
 get_python_version()
+
+py_help("max", stdout = TRUE)
+
+py_exec("max(1, 2, 6, 4)")
+
+py_exec('"R meets Python".split()')
 ```
